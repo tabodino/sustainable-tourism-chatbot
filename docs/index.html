@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Tourisme Durable - Destinations Responsables</title>
+    <meta name="description" content="Chatbot IA spécialisé en tourisme durable et responsable en Europe. Découvrez des destinations authentiques qui préservent l'environnement et évitent le surtourisme.">
+    <meta name="keywords" content="tourisme durable, voyage responsable, destinations écologiques">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="shortcut icon" href="assets/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <div class="header-logo">
+                <img src="assets/favicon-96x96.png" alt="Logo Tourisme Durable">
+            </div>
+            <div class="header-text">
+                <h1>Chatbot Tourisme Durable</h1>
+                <p>Votre assistant IA pour des voyages responsables</p>
+            </div>
+        </div>
+        <div class="chat-messages" id="chatMessages">
+            <div class="bot-message">
+                <strong>Bienvenue !</strong><br><br>
+                Je suis votre assistant spécialisé en tourisme durable et responsable en Europe. 
+                Je vous aide à découvrir des destinations authentiques qui préservent l'environnement et évitent le surtourisme.<br><br>
+                <em>Posez-moi vos questions sur les destinations écologiques ! 🌱</em>
+            </div>
+        </div>
+        <div class="chat-input-container">
+            <input 
+                type="text" 
+                class="chat-input" 
+                id="userInput" 
+                placeholder="Posez votre question sur le tourisme durable..."
+                onkeypress="handleKeyPress(event)"
+            >
+            <button class="send-button" id="sendButton" onclick="sendMessage()">
+                <span>Envoyer</span>
+            </button>
+        </div>
+    </div>
+
+    <script src="config.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
