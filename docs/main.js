@@ -53,12 +53,13 @@ async function sendMessage() {
         }
 
         const data = await response.json();
+        const body = JSON.parse(data.body);
         
-        addMessage(data.llm_answer || 'Erreur: Pas de réponse reçue');
+        addMessage(body.llm_answer || 'Erreur: Pas de réponse reçue');
 
         const infoDiv = document.createElement('div');
         infoDiv.className = 'info-badge';
-        infoDiv.textContent = `📊 ${data.destinations_count} destinations analysées`;
+        infoDiv.textContent = `📊 ${body.destinations_count} destinations analysées`;
         chatMessages.appendChild(infoDiv);
         chatMessages.scrollTop = chatMessages.scrollHeight;
 
