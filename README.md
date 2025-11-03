@@ -3,6 +3,11 @@
 
 > **AI chatbot recommending sustainable travel destinations in Europe, powered by AWS Bedrock Claude and deployed on GitHub Pages.**
 
+>This repository serves as a complement to the Medium article detailing the project’s architecture, technical choices, and full deployment process:
+>
+> ➡️ [Building a Sustainable Tourism AI Chatbot with AWS Bedrock Claude](https://medium.com/@tabodino/creating-a-sustainable-tourism-destination-recommendation-chatbot-with-aws-bedrock-41337db49461)
+>
+>You’ll find full explanations, context, and step-by-step guidance to reproduce or adapt this chatbot.
 
 ---
 
