@@ -15,7 +15,7 @@
 
 - [Problem Statement](#-problem-statement)
 - [Analysis](#-analysis)
-- [AWS Tech Stack](#-aws-tech-stack)
+- [AWS Tech Stack](#aws-tech-stack)
 - [Features](#-features)
 - [Setup & Deployment](#-setup--deployment)
 - [Improvements & Recommendations](#-improvements--recommendations)
@@ -292,7 +292,7 @@ An **intelligent conversational chatbot** recommending **sustainable, lesser-kno
 
 **French version:**
 
-[Création d’un chatbot de recommandation de destinations touristiques durables avec AWS Bedrock](https://medium.com/@tabodino/creaitlambda-roleguardcr%C3%A9ation-dun-chatbot-de-recommandation-de-destinations-touristiques-durables-c073040c196d)
+[Création d’un chatbot de recommandation de destinations touristiques durables avec AWS Bedrock](https://medium.com/@tabodino/cr%C3%A9ation-dun-chatbot-de-recommandation-de-destinations-touristiques-durables-avec-aws-bedrock-3e5789a41727)
 
 
 
