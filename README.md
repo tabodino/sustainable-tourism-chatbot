@@ -1,5 +1,10 @@
 # 🌍 Sustainable Tourism Chatbot
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![AWS](https://img.shields.io/badge/AWS-Bedrock%20%7C%20Lambda%20%7C%20S3-FF9900?logo=amazon-aws)](https://aws.amazon.com/)
+[![Claude](https://img.shields.io/badge/LLM-Claude%203%20Haiku-5A67D8)](https://www.anthropic.com/claude)
+[![GitHub Pages](https://img.shields.io/badge/Demo-Live-success)](https://tabodino.github.io/sustainable-tourism-chatbot/)
+
 
 > **AI chatbot recommending sustainable travel destinations in Europe, powered by AWS Bedrock Claude and deployed on GitHub Pages.**
 
